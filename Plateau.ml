@@ -5,7 +5,7 @@ module Plateau = struct
             cases : case list;
             des_captures : int
            }
-  and case = {joueur: Houeur.t; des:int}
+  and case = {joueur: Joueur.t; des:int}
 
   open Joueur
 
