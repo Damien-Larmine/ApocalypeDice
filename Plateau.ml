@@ -20,4 +20,12 @@ module Plateau = struct
              {joueur = Joueur 1; des = 1};];
     des_captures = 0
   }
+
+  let gen_plateau dim joueurs ndes =
+    {
+      taille = 2;
+      max_des = ndes;
+      num_joueurs = joueurs;
+      cases
+    }
 end
